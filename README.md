@@ -39,13 +39,27 @@ mv /root/NodeInject/target/x86_64-pc-windows-gnu/release/node-inject <Your Typor
 ```shell
 cargo run --bin license-gen --release
 ```
-3. open typora and input your license.
-
 
 
 > [!NOTE]
 >
 > Also can build binary with Github workflows. see **Action**
+
+
+
+## Use
+
+1. copy `license-gen.exe  node-inject.exe` into Typora installed path
+2. `rm -rf node`
+3. `./node-inject.exe`
+4. `./license-gen.exe`
+5. open typora and input your license.
+
+
+
+> [!NOTE]
+>
+> 如果是国内用户，需配置使用国内服务器，其设置方法： **文件-偏好设置-通用-Typora 使用国内服务器**
 
 
 
